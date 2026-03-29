@@ -36,6 +36,10 @@ gem "bootsnap", require: false
 gem "rack-cors"
 gem "sidekiq"
 gem "active_model_serializers"
+# Sidekiq setup
+gem "sidekiq"
+gem "redis"
+gem "rspec-rails"
 
 
 group :development, :test do
